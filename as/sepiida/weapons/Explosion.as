@@ -1,0 +1,1 @@
+﻿package sepiida.weapons {	import sepiida.weapons.Weapon;	import flash.events.Event;		public class Explosion extends Weapon {		public function Explosion() {			rotation = Math.floor(Math.random()*360);			removeIdle = false;		}		override protected function speed():void {			super.speed();			rotation += 1;			if(currentFrame == totalFrames) { remove(); }		}	}}

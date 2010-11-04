@@ -1,0 +1,1 @@
+﻿package sepiida.weapons {	import sepiida.Movement;	import flash.events.Event;		public class Weapon extends Movement {		protected var removeIdle:Boolean = true;				public function Weapon() {					}		override protected function speed():void {			super.speed();			if(removeIdle && speedRight == 0) { die(); }			else { hitTestEnemies(); }		}	}}

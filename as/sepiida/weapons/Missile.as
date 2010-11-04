@@ -1,0 +1,1 @@
+﻿package sepiida.weapons {	import sepiida.weapons.Weapon;		public class Missile extends Weapon {		public function Missile() {			speedRight = 1;			frictionRight = -1;		}	}}

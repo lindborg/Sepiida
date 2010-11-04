@@ -1,0 +1,1 @@
+﻿package sepiida.enemies {	import sepiida.enemies.Enemy;		public class Gas extends Enemy {		public function Gas() {					}	}}
